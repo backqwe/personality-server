@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="personality-client" />
+        <module name="server" />
+        <module name="api" />
+        <module name="personality-server" />
+        <module name="personality-common" />
+        <module name="gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="15">
+      <module name="api" target="1.5" />
+      <module name="gateway" target="1.8" />
+      <module name="personality-client" target="1.8" />
+      <module name="personality-common" target="1.8" />
+      <module name="personality-config-test" target="1.8" />
+      <module name="personality-config-test2" target="1.8" />
+      <module name="personality-config-test3" target="1.8" />
+      <module name="personality-server" target="1.8" />
+      <module name="server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gateway" options="-parameters" />
+      <module name="personality-client" options="-parameters" />
+      <module name="personality-common" options="-parameters" />
+      <module name="personality-config-test" options="-parameters" />
+      <module name="personality-config-test2" options="-parameters" />
+      <module name="personality-config-test3" options="-parameters" />
+      <module name="personality-server" options="-parameters" />
+      <module name="server" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,7 @@
+api:
+  enhances:
+    findById: "EnhanceTest1,EnhanceTest2"
+    findAll: "EnhanceTest1,EnhanceTest2"
+    insert: "EnhanceTest1,EnhanceTest2"
+    findList: "EnhanceTest1,EnhanceTest2"
+    findById2: "EnhanceTest1,EnhanceTest2"
